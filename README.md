@@ -15,11 +15,12 @@ Google Cleaner is a Chrome extension that removes unwanted elements from Google'
 
 ## Installation
 
-1. Download or clone this repository.
+1. Download the newest release and unzip the folder.
 2. Open Chrome and go to `chrome://extensions/`.
 3. Enable **Developer mode** (toggle in the top right corner).
-4. Click **Load unpacked** and select the unziped downloaded code. 
+4. Click **Load unpacked** and select the unziped folder. 
 5. Refresh Google to see the changes!
+6. Done.
 
 ## File Structure
 
