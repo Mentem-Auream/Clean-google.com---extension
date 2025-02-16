@@ -1,6 +1,6 @@
 # Google Cleaner Chrome Extension
 
-Google Cleaner is a Chrome extension that removes unwanted elements from Google's homepage and forces light mode.
+Google Cleaner is a Chrome extension that removes unwanted elements from Google's homepage.
 
 ## Features
 
@@ -11,8 +11,7 @@ Google Cleaner is a Chrome extension that removes unwanted elements from Google'
   - "Search in Google" and "I'm Feeling Lucky" buttons
   - "Gmail" and "Images" links
   - Google Apps button
-- Forces Google to stay in **light mode**
-- Works automatically when you visit Google
+- Works automatically when you visit Google.com
 
 ## Installation
 
