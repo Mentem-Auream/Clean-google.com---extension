@@ -1,5 +1,5 @@
 # clean google.com Extension
-[!](https://github.com/user-attachments/assets/2fb3e7ab-d0c0-4283-bb39-30c1183f638d)
+![!](https://github.com/user-attachments/assets/2fb3e7ab-d0c0-4283-bb39-30c1183f638d)
 
 clean google.com is a Chrome extension that removes unwanted elements from Google's homepage.
 
