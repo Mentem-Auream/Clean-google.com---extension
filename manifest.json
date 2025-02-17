@@ -1,13 +1,13 @@
 {
     "manifest_version": 3,
-    "name": "Google Cleaner",
-    "version": "1.1",
+    "name": "Google clear home page",
+    "version": "1.2",
     "description": "Removes unwanted elements from Google's homepage",
     "permissions": ["scripting"],
     "host_permissions": ["https://www.google.com/"],
     "content_scripts": [
       {
-        "matches": ["https://www.google.com/*"],
+        "matches": ["https://www.google.com/","https://www.google.com/webhp*"],
         "js": ["content.js"]
       }
     ]

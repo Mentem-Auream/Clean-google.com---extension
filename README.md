@@ -41,6 +41,24 @@ If you want to add or remove elements, modify `content.js` and update the `selec
 - If changes don’t appear, try reloading the extension in `chrome://extensions/` and refreshing Google.
 - Ensure JavaScript is enabled in Chrome.
 
+## Changelog
+
+### Version 1.2
+- Updated `manifest.json` to version `1.2`.
+- Improved element removal to cover additional localized Google search buttons.
+- Added animations for element removal.
+- Enhanced styling for the search box and dropdown.
+- Improved dark mode support.
+
+### Version 1.1
+- Updated `manifest.json` to version `1.1`.
+- Added `MutationObserver` to dynamically remove elements.
+- Included additional elements like "Gmail" and "Images" in removal.
+
+### Version 1.0
+- Initial release.
+- Removed footer, Google Store link, and some homepage elements.
+
 ## License
 
 This project is open-source and free to use!
