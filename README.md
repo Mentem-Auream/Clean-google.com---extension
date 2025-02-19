@@ -45,6 +45,12 @@ If you want to add or remove elements, modify `content.js` and update the `selec
 
 ## Changelog
 
+### Version 1.3 -- pre release for now
+
+- adding settings for
+ - Custom style searchbox 
+ - deleting stuff on website
+
 ### Version 1.2
 - Updated `manifest.json` to version `1.2`.
 - Improved element removal to cover additional localized Google search buttons.
