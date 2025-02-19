@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extension Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+      width: 250px;
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+    .setting {
+      margin-bottom: 15px;
+    }
+    .setting label {
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+    }
+    .setting input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Settings</h1>
+  <div class="setting">
+    <label>
+      <input type="checkbox" id="removeButtons" />
+      Remove localized search buttons
+    </label>
+  </div>
+  <div class="setting">
+    <label>
+      <input type="checkbox" id="removeElements" />
+      Remove other elements
+    </label>
+  </div>
+  <div class="setting">
+    <label>
+      <input type="checkbox" id="styleSearchBox" />
+      Style search box
+    </label>
+  </div>
+  <div class="setting">
+    <label>
+      <input type="checkbox" id="styleDropdownBox" />
+      Style dropdown box
+    </label>
+  </div>
+  <div class="setting">
+    <label>
+      <input type="checkbox" id="styleSearchBoxIcon" />
+      Style search box icon
+    </label>
+  </div>
+  <button id="save">Save</button>
+  <script src="popup.js"></script>
+</body>
+</html>

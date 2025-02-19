@@ -1,15 +1,17 @@
 {
-    "manifest_version": 3,
-    "name": "Google clear home page",
-    "version": "1.2",
-    "description": "Removes unwanted elements from Google's homepage",
-    "permissions": ["scripting"],
-    "host_permissions": ["https://www.google.com/"],
-    "content_scripts": [
-      {
-        "matches": ["https://www.google.com/","https://www.google.com/webhp*"],
-        "js": ["content.js"]
-      }
-    ]
+  "manifest_version": 3,
+  "name": "Google clear home page",
+  "version": "1.2",
+  "description": "Removes unwanted elements from Google's homepage",
+  "permissions": ["scripting", "storage"],
+  "host_permissions": ["https://www.google.com/"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/", "https://www.google.com/webhp*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
   }
-  
+}
